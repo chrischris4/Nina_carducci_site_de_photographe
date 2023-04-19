@@ -258,19 +258,19 @@
             .show(300);
         }
       });
-      const filter = document.querySelectorAll('.nav-link');
-      filter.forEach(Element => {
-        console.log('yo')
-        Element.addEventListener('click', () => {
-          Element.classList.add('filter-active');
+      // const filter = document.querySelectorAll('.nav-link');
+      // filter.forEach(Element => {
+      //   console.log('yo')
+      //   Element.addEventListener('click', () => {
+      //     Element.classList.add('filter-active');
   
-          filter.forEach(otherElement => {
-          if (otherElement !== Element) {
-            otherElement.classList.remove('filter-active');
-          }
-          });
-        });
-      });
+      //     filter.forEach(otherElement => {
+      //     if (otherElement !== Element) {
+      //       otherElement.classList.remove('filter-active');
+      //     }
+      //     });
+      //   });
+      // });
     }
   };
 })(jQuery);
