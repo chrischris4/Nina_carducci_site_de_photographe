@@ -111,6 +111,13 @@ body {
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
+
+.filter-active {
+	color: #000;
+	background-color: #BEB45A;
+	border-radius:0 ;
+}
+
 .nav-pills .nav-link {
 	color: #000
 }
