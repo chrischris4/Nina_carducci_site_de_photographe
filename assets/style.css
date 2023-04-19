@@ -93,6 +93,12 @@ body {
 #gallery {
 		min-height: 100vh;
 }
+
+.gallery-item {
+	width: 440px;
+	height: 440px;
+}
+
 .title{
 	text-align: center;
 	padding-block: 2em;
