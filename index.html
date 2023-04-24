@@ -24,7 +24,7 @@
 </head>
 <body>
 <header>
-	<h1 class="name">Nina Carducci</h1>
+	<h1 itemprop="name" class="name">Nina Carducci</h1>
 	<div class="nav">   
 		<ul>
 			<li><a href="#about" aria-label="à propos">À propos</a></li>
@@ -35,7 +35,7 @@
 		</ul>
 	</div>
 </header>
-<div id="header">
+<div itemscope itemtype="https://schema.org/picture" id="header">
 	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 		<div class="carousel-indicators">
 			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -98,36 +98,36 @@
 		</figure>
 	</div>
 </div>
-<div id="services">
+<div itemscope itemtype="https://schema.org/Offer" id="services">
 	<h2 class="title">Mes services</h2>
 	<div class="container">
 		<div class="service">
 			<div class="service__description">
-				<h3>Shooting photo</h3>
+				<span itemprop="name"><h3>Shooting photo</h3></span>
 				<p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos</p>
 			</div>
 			<div class="service__price">
-				<h4>350€/demi journée</h4>
+				<span itemprop="price"><h4>350€/demi journée</h4></span>
 				<span>Matériel, déplacement inclus</span>
 			</div>
 		</div>
 		<div class="service">
 			<div class="service__description">
-				<h3>Retouches</h3>
+				<span itemprop="name"><h3>Retouches</h3></span>
 				<p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications</p>
 			</div>
 			<div class="service__price">
-				<h4>50€/photo</h4>
+				<span itemprop="price"><h4>50€/photo</h4></span>
 				<span>2 AR par photo</span>
 			</div>
 		</div>
 		<div class="service">
 			<div class="service__description">
-				<h3>Album photos</h3>
+				<span itemprop="name"><h3>Album photos</h3></span>
 				<p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé</p>
 			</div>
 			<div class="service__price">
-				<h4>400€ album A4</h4>
+				<span itemprop="price"><h4>400€ album A4</h4></span>
 				<span>30 pages recto/verso</span>
 			</div>
 		</div>
