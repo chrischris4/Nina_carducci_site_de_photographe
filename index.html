@@ -26,6 +26,8 @@
 		"@type": "LocalBusiness",
 		"name": "Nina Carducci",
 		"image": "./assets/images/nina.webp",
+		"priceCurrency": "EUR",
+		"priceRange": "50.00 - 400.00"
 		"address": {
 			"@type": "PostalAddress",
 			"streetAddress": "68 avenue Alsace-Lorraine",
@@ -159,6 +161,22 @@
 	<h2 class="title">Mes services</h2>
 	<div class="container">
 		<div class="service">
+			<script type="application/ld+json">
+				{
+					"@context": "http://schema.org",
+					"@type": "Product",
+					"name": "Shooting Photo",
+					"description": "Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos",
+					"image": "image.jpg",
+					"offers": {
+						"@type": "Offer",
+						"priceCurrency": "EUR",
+						"price": "350€",
+						"priceValidUntil": "2023-12-31",
+						"availability": "http://schema.org/InStock",
+					}
+				}
+				</script>
 			<div class="service__description">
 				<h3>Shooting photo</h3>
 				<p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos</p>
@@ -169,6 +187,22 @@
 			</div>
 		</div>
 		<div class="service">
+			<script type="application/ld+json">
+				{
+					"@context": "http://schema.org",
+					"@type": "Product",
+					"name": "Retouches",
+					"description": "Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications",
+					"image": "image.jpg",
+					"offers": {
+						"@type": "Offer",
+						"priceCurrency": "EUR",
+						"price": "50€",
+						"priceValidUntil": "2023-12-31",
+						"availability": "http://schema.org/InStock",
+					}
+				}
+				</script>
 			<div class="service__description">
 				<h3>Retouches</h3>
 				<p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications</p>
@@ -179,6 +213,22 @@
 			</div>
 		</div>
 		<div class="service">
+			<script type="application/ld+json">
+				{
+					"@context": "http://schema.org",
+					"@type": "Product",
+					"name": "Album Photo",
+					"description": "Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé",
+					"image": "image.jpg",
+					"offers": {
+						"@type": "Offer",
+						"priceCurrency": "EUR",
+						"price": "400€",
+						"priceValidUntil": "2023-12-31",
+						"availability": "http://schema.org/InStock",
+					}
+				}
+				</script>
 			<div class="service__description">
 				<h3>Album photos</h3>
 				<p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé</p>
