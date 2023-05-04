@@ -20,6 +20,11 @@ header {
 header .name {
 	font-size: 26px;
 }
+
+header p {
+	font-size: 12px;
+}
+
 .nav ul {
 	display: flex;
 	list-style-type: none;
